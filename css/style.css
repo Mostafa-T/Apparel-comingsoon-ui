@@ -22,14 +22,12 @@
 }
 body {
   font-family: 'Josefin Sans', sans-serif;
+  background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
 }
 /* End Global styling  */
 
   /* Start Hero Section */
-.logo {
-  position: absolute;
-  padding: 2% 10%;
-}
+
 .container  {
   height: 100vh;
   display: flex;
@@ -37,6 +35,12 @@ body {
   -ms-flex-direction: row-reverse;
   align-items: center;
 }
+
+.logo {
+  position: absolute;
+  padding: 5% 10%;
+}
+
 .hero-image {
   height: 100%;
   background-image: url('../images/hero-desktop.jpg');
@@ -44,18 +48,22 @@ body {
   background-position: center;
   width: 50%;
 }
+
 .hero-content {
   padding-left: 10%;
 }
+
 .hero-content span {
   font-weight: 300;
   color: hsl(0, 36%, 70%);
 }
+
 .hero-content h1 {
   font-size: 60px;
   text-transform: uppercase;
   letter-spacing: 20px;
 }
+
 .hero-content p {
   width: 50%;
   margin: 1rem 0rem;
